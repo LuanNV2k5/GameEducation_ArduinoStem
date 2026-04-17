@@ -1,0 +1,6 @@
+{
+  "name": "Arduino IPO Education Game",
+  "description": "An interactive educational game to learn about Arduino light sensors and the IPO logic (Input-Process-Output).",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

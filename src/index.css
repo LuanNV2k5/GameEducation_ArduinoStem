@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Bright & Vibrant Theme Colors */
+  --color-sleek-bg: #f8fafc;
+  --color-sleek-card: #ffffff;
+  --color-sleek-green: #22c55e;
+  --color-sleek-orange: #f97316;
+  --color-sleek-teal: #0891b2;
+  --color-sleek-border: #e2e8f0;
+  --color-sleek-text-main: #0f172a;
+  --color-sleek-text-dim: #64748b;
+}
+
+@layer base {
+  body {
+    @apply bg-sleek-bg text-sleek-text-main font-sans antialiased;
+  }
+}
